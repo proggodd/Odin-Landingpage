@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <title>Odin project | LandingPage </title>
 </head>
@@ -12,20 +13,25 @@
 <body>
     <!-- header -->
     <div class="container" id="header">
-        <div class="container">
-            <h2>Header Logo</h2>
-            <a href="#">header link one</a>
-            <a href="#">header link two</a>
-            <a href="#">header link three</a>
+        <div class="container" id="space-around">
+            <div>
+                <h2 id="logo">Header Logo</h2>
+            </div>
+            <div class="container">
+                <a id="hero" href="#">header link one</a>
+                <a id="hero" href="#">header link two</a>
+                <a id="hero" href="#">header link three</a>
+            </div>
         </div>
-        <div class="container">
+        <div class="container" >
             <div>
                 <h1>This website is awesome</h1>
-                <p>this website has some subtext that goes here under the main title.its smaller font and the color is
+                <p id="hero">this website has some subtext that goes here under the main title. Its smaller font and the
+                    color is
                     lower contrast</p>
-                <button>sign up</button>
+                <button id="hero">sign up</button>
             </div>
-            <div><img src="#" alt="#"></div>
+            <div><img src="pics/image-placeholder.jpg" alt="#"></div>
         </div>
     </div>
     <!-- info -->
@@ -33,30 +39,35 @@
         <div class="container">
             <h2>Some random information</h2>
         </div>
-        <div class="container">
-            <div><img src="#" alt="#">
+        <div class="container" id="space-around">
+            <div><img src="pics/white.jpg" alt="#">
                 <p>this is some subtext under an illustration or image</p>
             </div>
-            <div><img src="#" alt="#">
+            <div><img src="pics/white.jpg" alt="#">
                 <p>this is some subtext under an illustration or image</p>
             </div>
-            <div><img src="#" alt="#">
+            <div><img src="pics/white.jpg" alt="#">
                 <p>this is some subtext under an illustration or image</p>
             </div>
-            <div><img src="#" alt="#">
+            <div><img src="pics/white.jpg" alt="#">
                 <p>this is some subtext under an illustration or image</p>
             </div>
         </div>
     </div>
     <!-- quote -->
     <div class="container" id="quote">
-        <p>This is an inspiring quote or a testimonial from a customer. Maybe it's just filling space, or maybe people
-            will actually read it. Who knows? All i know is that it looks nice.</p>
-        <h3>-thor, God of thunder</h3>
+        <div>
+            <p>This is an inspiring quote or a testimonial from a customer. Maybe it's just filling space, or maybe
+                people
+                will actually read it. Who knows? All i know is that it looks nice.</p>
+        </div>
+        <div id="auth">
+            <h3>-thor, God of thunder</h3>
+        </div>
     </div>
     <!-- sign up -->
     <div class="container" id="sign-up">
-        <div class="container">
+        <div class="container" id="space-around">
             <div>
                 <h3>Call an action! It's time!</h3>
                 <p>sign up for our product by clicking that button over there!</p>
